@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.google.com/specimen/Darker+Grotesque">
+    <title>Document</title>
+</head>
+<div class="body" id="id-div">
+
+</div>
+
+<body>
+    <script src="script.js" defer></script>
+    <form method="POST">
+        <label for="nome">Nome:</label>
+        <input id="idnome" type="text" name="nome" placeholder="Digite seu nome.">
+        <br>
+        <label for="texto"> Mensagem:</label>
+        <textarea id="idtexto" name="texto" placeholder="Digite seu texto." rows="8"></textarea>
+        <br>
+        <input id="idenviar" type="submit" class="enviar" value="Enviar">
+    </form>
+    <br>
+    <div class="corpo" id="idcorpo">
+        <button type="reset" class="apagarTudo" onclick="ApagarTudo()">Excluir Mensagens</button>
+        <br>
+        <div class="cards" id="idcards">
+            <h1 id="registros"></h1>
+        </div>
+    </div>
+</body>
+
+</html>

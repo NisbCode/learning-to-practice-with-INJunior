@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" cotent="Nathália Ignácio Silva Bomfim">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de Contato</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <hgroup>
+            <h1>Página de Contato</h1>
+            <br>
+            <h4><i>Atualizado em 12/Janeiro/2021</i></h4>
+        </hgroup>
+        <figure>
+            <img src="https://static.vix.com/es/sites/default/files/cachorro-golden-filhote-0717-1400x800.jpg" width="1000"
+                alt="Imagem de cachorrinho filhote">
+            <figcaption><i>Um doguinho pra tu</i></figcaption>
+        </figure>
+    </header>
+    <br>
+
+    <main>
+        <section>
+            <h2>Gostaríamos de saber o que achou do artigo para que possamos melhorar no futuro!</h2>
+            <form method="post" action="mailto:?subject=Respostas do formulário&amp;body=Olá,%0D%0A%0D%0AInsira sua mensagem :p">
+                <section>
+                    <input type="checkbox" name="questao1">Boa música.<br>
+                    <input type="checkbox" name="questao2">Péssima música.<br>
+                    <input type="checkbox" name="questao3">Conteúdo show.<br>
+                    <input type="checkbox" name="questao4">Conteúdo pobre.<br>
+                    <input type="checkbox" name="questao5">Amei o vídeo de doguinho.<br>
+                    <input type="checkbox" name="questao6">Odeio cachorros.<br>
+                    <br>
+                </section>
+                <section>
+                    <h2>Defina o quanto esse site alcançou suas expectativas:</h2>
+                    <br>
+                    Meh :/
+                    <input type="range" name="satisfacao" min="0" max="10">
+                    Nice :3
+                </section>
+                <br>
+                <label>
+                    Nome:
+                    <input type="text" name="nome" id="name" placeholder="Insira seu nome">
+                </label>
+                <br>
+                <label>
+                    Telefone:
+                    <input type="tel" name="telefone" id="phone" placeholder="Insira seu número">
+                </label>
+                <br>
+                <label>
+                    Email:
+                    <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
+                </label>
+                <br>
+                <label>
+                    Senha:
+                    <input type="password" name="senha" id="password" placeholder="Insira sua senha">
+                </label>
+                <br>
+                <textarea name="texto" id="text" cols="80" rows="10" placeholder="Aceitamos feedback! :)"></textarea>
+                <br>
+                <input type="submit" name="enviar" value="Enviar">
+            </form>
+        </section>
+        <br>
+    </main>
+
+    <footer>
+        <h3>Hidrate-se :3</h3>
+        <a href="https://gitlab.com/nathalia.ig.bomfim">GitLab</a>
+        <a href="index.html">Página principal</a>
+    </footer>
+</body>
+
+</html>

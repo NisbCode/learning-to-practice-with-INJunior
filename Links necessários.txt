@@ -1,0 +1,29 @@
+
+
+
+
+==================================RUBY ON RAILS==================================
+https://www.devmedia.com.br/instalando-o-ruby-on-rails-no-windows/20472
+
+Aulas:
+21/01 (manhã): Ruby - https://youtu.be/fa7QM6H-Svc
+21/01 (tarde): Introdução a Rails - https://youtu.be/RTa0szg2YkE
+22/01 (manhã): Relações de Cardinalidade - https://youtu.be/TR1G7UuReEw
+22/01 (tarde): Autenticação de usuário - https://youtu.be/-K29DJzYp34
+
+
+Download:
+
+Para criar um arquivo, primeiro abra o terminal
+Entre na pasta que você quiser
+cd C:\Users\natyb\Desktop\Programação\Aulas INJunior\Exercício Ruby on Rails
+cd C:/Users/natyb/Desktop/Programação/Aulas\ INJunior/Exercício\ Ruby\ on\ Rails
+
+Crie uma api usando a instancia do rails, seguido do nome do arquivo e --api
+rails new TesteAula --api
+
+Entre nessa pasta criada
+cd TesteAula
+
+Por fim, mande ele abrir o arquivo para codar
+code .

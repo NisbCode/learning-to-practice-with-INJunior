@@ -1,0 +1,71 @@
+form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    background-color: #E5E5E5;
+    width: 500px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+.corpo{
+    margin: 0 auto;
+    justify-content: center;
+    width: 500px;
+    background-color: white
+}
+
+div.cedula{
+    display: flex;
+    flex-flow: column;
+    background-color: #C4C4C4;
+    border-width: 1em;
+    margin-bottom: 2em;
+}
+
+button:hover, button.apagarTudo:hover, #idenviar:hover{
+    background-color: rgb(100, 100, 100);
+}
+button.editar{
+    border-style: none;
+    margin-left: 30em;
+    margin-right: 1em;
+}
+button.apagar{
+    border-style: none;
+    margin-left: 30em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom:  1em;
+    float: right;
+}
+button.apagarTudo{
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    justify-content: center;
+    padding: .5em;
+    margin-top: 3em;
+}
+
+.nomeRelativo{
+    font-size: .8em;
+    margin-left: .6em;
+}
+.mensagemRelativo{
+    font-size: .6em;
+    margin-top: .4em;
+    margin-left: .6em;
+    margin-right: .4em;
+    margin-bottom: .6em;
+    word-wrap: break-word;
+}

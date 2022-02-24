@@ -1,0 +1,5 @@
+Local onde está o tema enviado pelo instrutor:
+C:\Users\natyb\Local Sites\aula-wordpress\app\public\wp-content\themes
+
+Mexemos em todos os arquivos da página:
+C:\Users\natyb\Local Sites\aula-wordpress\app\public\

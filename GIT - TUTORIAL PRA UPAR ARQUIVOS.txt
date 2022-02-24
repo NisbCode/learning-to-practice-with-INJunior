@@ -1,0 +1,51 @@
+Abra o bash(app que nem o prompt)
+
+
+
+Use o comando cd para ir até o caminho que quer chegar:
+$ cd Desktop/Programação/Aulas\ INJunior/Exercício\ Aula\ JS
+
+
+
+Dê git init no caminho que deseja criar um repositório a qual vai upar
+$ git init Exercício\ Aula\ JS/aula2/
+
+
+
+Configure como vai ficar seu repositório usando git config 
+
+Nisb@LAPTOP-8F6SA22F MINGW64 ~/Desktop/Programação/Aulas INJunior/Exercício Aula JS/aula2 (master)
+$ git config --local user.name "Nathália"
+
+Nisb@LAPTOP-8F6SA22F MINGW64 ~/Desktop/Programação/Aulas INJunior/Exercício Aula JS/aula2 (master)
+$ git config --local user.email nathalia.ig.bomfim@gmail.com
+
+
+Adicione para rastreio os arquivos que vai upar
+$ git add .
+
+
+Se necessário, observe como estão os arquivos que enviou
+$ git status
+
+
+Commita eles dando uma explicação do que fez 
+$ git commit -m "Enviando Arquivos da aula de DOM" -m "Arquivos usados na criação de site manipulando DOM. Sem modificações"
+
+
+Depois de commitar, ele não aparece mais no status, então agora é só enviar
+Abra o GitLab
+Verifique se está logada
+Novo Projeto (No + lá acima)
+Em branco 
+Coloque um nome intuitivo 
+(Configurações que usamos)
+Public
+
+
+Adicione um local para que ele envie, é justamente a 3 linha do último bloco da página que aparece assim q você termina de criar o projeto acima
+git remote add origin git@gitlab.com:nathalia.ig.bomfim/aula-js-dia-2.git
+
+
+Por fim, para enviar, apenas use a 4 linha, a de baixo da questão acima
+git push -u origin --all
